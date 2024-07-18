@@ -1,0 +1,457 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.28)  29 JAN 2024 19:37
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"./LaTeX Typesetting.tex"
+(LaTeX Typesetting.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(D:\latex\tex/latex/exam\exam.cls
+Document Class: exam 2023/07/09 Version 2.704 by Philip Hirschhorn
+(D:\latex\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (D:\latex\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(D:\latex\tex/latex/base\size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+\@extrawidth=\skip50
+\@rightmargin=\skip51
+\@extrahead=\skip52
+\@extrafoot=\skip53
+\run@exhd=\skip54
+\fp@exhd=\skip55
+\run@exft=\skip56
+\fp@exft=\skip57
+\covrun@exhd=\skip58
+\covfp@exhd=\skip59
+\covrun@exft=\skip60
+\covfp@exft=\skip61
+\c@num@coverpages=\count195
+\c@latest@ques=\count196
+\c@ques@end=\count197
+\c@last@object=\count198
+\c@incmp@ques=\count199
+\c@next@ques=\count266
+\c@next@page=\count267
+\c@tmp@hlfcntr=\count268
+\c@ifpos@cntr=\count269
+\c@question=\count270
+\c@partno=\count271
+\c@subpart=\count272
+\c@subsubpart=\count273
+\c@choice=\count274
+\c@numpoints=\count275
+\c@numbonuspoints=\count276
+\c@pointsof@thisquestion=\count277
+\c@bonuspointsof@thisquestion=\count278
+\c@numquestions=\count279
+\c@numparts=\count280
+\c@numsubparts=\count281
+\c@numsubsubparts=\count282
+\c@Curr@Page=\count283
+\c@@pagepoints=\count284
+\c@@pagebonuspoints=\count285
+\c@pageof@pagepoints=\count286
+\c@pageof@pagebonuspoints=\count287
+\c@latest@points=\count288
+\c@latest@bonuspoints=\count289
+\pageinfo@commands=\toks17
+\temp@toks=\toks18
+\pagepoint@commands=\toks19
+\point@toks=\toks20
+\c@ques@object=\count290
+\marginpointssep=\skip62
+\rightpointsmargin=\skip63
+\choice@toks=\toks21
+\answerlinelength=\skip64
+\answerskip=\skip65
+\answerclearance=\skip66
+\fillinlinelength=\skip67
+\linefillheight=\skip68
+\linefillthickness=\skip69
+\dottedlinefillheight=\skip70
+\gridsize=\skip71
+\gridlinewidth=\skip72
+\minboxheight=\skip73
+\c@@iterator=\count291
+\@cellwidth=\skip74
+\c@tbl@points=\count292
+\c@tbl@bonuspoints=\count293
+\c@pq@index=\count294
+\c@pq@index@pts=\count295
+\c@pq@index@bpts=\count296
+\c@num@cols=\count297
+\c@num@rows=\count298
+\c@current@row=\count299
+\c@cols@done=\count300
+\c@exam@saved@eqnum=\count301
+\exam@box=\box51
+\saved@totalleftmargin=\dimen141
+\@sollistdepth=\count302
+\exam@FrameRule=\dimen142
+\exam@FrameSep=\dimen143
+) (D:\latex\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(D:\latex\tex/latex/tex-gyre\tgschola.sty
+Package: tgschola 2009/09/27 v1.2 TeX Gyre Schola as default roman family
+
+(D:\latex\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(D:\latex\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(D:\latex\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(D:\latex\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)))
+(D:\latex\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip75
+
+For additional information on amsmath, use the `?' option.
+(D:\latex\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (D:\latex\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen144
+)) (D:\latex\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen145
+)
+(D:\latex\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count303
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count304
+\leftroot@=\count305
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count306
+\DOTSCASE@=\count307
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen146
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count308
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count309
+\dotsspace@=\muskip16
+\c@parentequation=\count310
+\dspbrk@lvl=\count311
+\tag@help=\toks24
+\row@=\count312
+\column@=\count313
+\maxfields@=\count314
+\andhelp@=\toks25
+\eqnshift@=\dimen147
+\alignsep@=\dimen148
+\tagshift@=\dimen149
+\tagwidth@=\dimen150
+\totwidth@=\dimen151
+\lineht@=\dimen152
+\@envbody=\toks26
+\multlinegap=\skip76
+\multlinetaggap=\skip77
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (D:\latex\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks28
+\thm@bodyfont=\toks29
+\thm@headfont=\toks30
+\thm@notefont=\toks31
+\thm@headpunct=\toks32
+\thm@preskip=\skip78
+\thm@postskip=\skip79
+\thm@headsep=\skip80
+\dth@everypar=\toks33
+) (D:\latex\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(D:\latex\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(D:\latex\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+ (D:\latex\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count315
+\calc@Bcount=\count316
+\calc@Adimen=\dimen153
+\calc@Bdimen=\dimen154
+\calc@Askip=\skip81
+\calc@Bskip=\skip82
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count317
+\calc@Cskip=\skip83
+)
+(D:\latex\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen155
+\ESO@tempdimb=\dimen156
+ (D:\latex\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(D:\latex\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(D:\latex\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)
+(D:\latex\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+))
+(D:\latex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\latex\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (D:\latex\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (D:\latex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
+)
+\AM@pagewidth=\dimen159
+\AM@pageheight=\dimen160
+\AM@fboxrule=\dimen161
+
+(D:\latex\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count318
+\AM@pagebox=\box54
+\AM@global@opts=\toks34
+\AM@pagecnt=\count319
+\AM@toc@title=\toks35
+\AM@lof@heading=\toks36
+\c@AM@survey=\count320
+\AM@templatesizebox=\box55
+)
+(D:\latex\tex/latex/cancel\cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+) (D:\latex\tex/latex/minted\minted.sty
+Package: minted 2023/12/18 v2.9 Yet another Pygments shim for LaTeX
+
+(D:\latex\tex/latex/fvextra\fvextra.sty
+Package: fvextra 2023/11/28 v1.6.1 fvextra - extensions and patches for fancyvr
+b
+
+(D:\latex\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count321
+)
+(D:\latex\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2023/11/06 4.5b verbatim text (tvz,hv)
+\FV@CodeLineNo=\count322
+\FV@InFile=\read2
+\FV@TabBox=\box56
+\c@FancyVerbLine=\count323
+\FV@StepNumber=\count324
+\FV@OutFile=\write3
+)
+(D:\latex\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+ (D:\latex\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)) (D:\latex\tex/latex/lineno\lineno.sty
+Package: lineno 2023/05/20 line numbers on paragraphs v5.3
+\linenopenalty=\count325
+\output=\toks37
+\linenoprevgraf=\count326
+\linenumbersep=\dimen162
+\linenumberwidth=\dimen163
+\c@linenumber=\count327
+\c@pagewiselinenumber=\count328
+\c@LN@truepage=\count329
+\c@internallinenumber=\count330
+\c@internallinenumbers=\count331
+\quotelinenumbersep=\dimen164
+\bframerule=\dimen165
+\bframesep=\dimen166
+\bframebox=\box57
+\linenoamsmath@ams@eqpen=\count332
+LaTeX Info: Redefining \\ on input line 3180.
+)
+\c@FancyVerbWriteLine=\count333
+\c@FancyVerbBufferIndex=\count334
+\c@FancyVerbBufferLength=\count335
+\c@FancyVerbBufferLine=\count336
+\c@FV@oldbufferlength=\count337
+\c@FV@TrueTabGroupLevel=\count338
+\c@FV@TrueTabCounter=\count339
+\FV@TabBox@Group=\box58
+\FV@TmpLength=\skip84
+\c@FV@HighlightLinesStart=\count340
+\c@FV@HighlightLinesStop=\count341
+\FV@LoopCount=\count342
+\FV@NCharsBox=\box59
+\FV@BreakIndent=\dimen167
+\FV@BreakIndentNChars=\count343
+\FV@BreakSymbolSepLeft=\dimen168
+\FV@BreakSymbolSepLeftNChars=\count344
+\FV@BreakSymbolSepRight=\dimen169
+\FV@BreakSymbolSepRightNChars=\count345
+\FV@BreakSymbolIndentLeft=\dimen170
+\FV@BreakSymbolIndentLeftNChars=\count346
+\FV@BreakSymbolIndentRight=\dimen171
+\FV@BreakSymbolIndentRightNChars=\count347
+\c@FancyVerbLineBreakLast=\count348
+\FV@LineBox=\box60
+\FV@LineIndentBox=\box61
+\c@FV@BreakBufferDepth=\count349
+\FV@LineWidth=\dimen172
+) (D:\latex\tex/latex/tools\shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+) (D:\latex\tex/latex/ifplatform\ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(D:\latex\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(D:\latex\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(D:\latex\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(D:\latex\tex/generic/catchfile\catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(D:\latex\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(D:\latex\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+
+Package ifplatform Warning: 
+    shell escape is disabled, so I can only detect \ifwindows.
+
+) (D:\latex\tex/latex/xstring\xstring.sty
+(D:\latex\tex/generic/xstring\xstring.tex
+\xs_counta=\count350
+\xs_countb=\count351
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+(D:\latex\tex/latex/framed\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip85
+\fb@frw=\dimen173
+\fb@frh=\dimen174
+\FrameRule=\dimen175
+\FrameSep=\dimen176
+) (D:\latex\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count352
+\float@exts=\toks38
+\float@box=\box62
+\@float@everytoks=\toks39
+\@floatcapt=\box63
+)
+\minted@appexistsfile=\read3
+\minted@bgbox=\box64
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count353
+\c@minted@pygmentizecounter=\count354
+\@float@every@listing=\toks40
+\c@listing=\count355
+)
+runsystem(if not exist _minted-LaTeX_Typesetting mkdir _minted-LaTeX_Typesettin
+g)...disabled (restricted).
+
+
+
+! Package minted Error: You must invoke LaTeX with the -shell-escape flag.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 
+    
+Pass the -shell-escape flag to LaTeX. Refer to the minted.sty documentation for
+ more information.
+
+runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > La
+TeX_Typesetting.aex <nul: /p x=^%~$PATH:i>> LaTeX_Typesetting.aex)...disabled (
+restricted).
+
+! Emergency stop.
+<read 3> 
+         
+l.38 \begin{document}
+                     ^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 8338 strings out of 474486
+ 139727 string characters out of 5760639
+ 1924542 words of memory out of 5000000
+ 30539 multiletter control sequences out of 15000+600000
+ 559131 words of font info for 38 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 77i,0n,81p,317b,52s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

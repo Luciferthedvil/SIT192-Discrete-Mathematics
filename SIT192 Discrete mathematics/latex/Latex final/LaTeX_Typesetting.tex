@@ -1,0 +1,197 @@
+\documentclass[addpoints,answers,12pt]{exam} % exam class with 12 point type
+\usepackage[T1]{fontenc}                     % replace default font encoding (OT1)
+\usepackage{tgschola}                        % font used in the Book of Proof
+\usepackage{amsmath,amsthm,amssymb,amsfonts} % packages for mathematical typesetting
+\usepackage{pdfpages}                        % include pdf pages with \includepdf{dir/of/page.pdf}
+\usepackage[makeroom]{cancel}                % display expressions as cancelled 
+\usepackage{minted}
+\usepackage{xcolor}
+\usepackage[ruled,vlined]{algorithm2e}
+
+
+\pagestyle{headandfoot} % header and footer style
+\firstpageheadrule      % put horizontal line on header of 1st page
+\runningheadrule        % put horizontal line on header after 1st page
+\firstpageheader{\student}{\subject \mbox{ ---} \assignment}{\dt}
+\runningheader{\student}{\subject \mbox{ ---} \assignment}{\dt}
+\firstpagefooter{}{}{} % put nothing on footer of 1st page
+\runningfooter{}{}{}   % put nothing on footer after 1st page
+
+% set some set symbols
+\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+
+% redefine tombstone symbol used at the of proofs
+\renewcommand{\qedsymbol}{$\blacksquare$}
+
+\newcommand{\student}{Nirosh Ravindran}
+\newcommand{\subject}{BSCP|CS|63|134}
+\newcommand{\assignment}{LaTeX Typesetting}
+\newcommand{\dt}{\today}
+
+
+
+\title{LaTeX Typesetting for Discrete Mathematics SIT192}
+\author{Nirosh Ravindran BSCP|CS|63|134}
+
+\begin{document}
+	\maketitle
+	\begin{questions}
+		
+		\question{Prove that $ \sum_{i=1}^{n} i = \frac{n(n+1)}{2} $ for $ n \ge 0 $, by induction.}
+		\begin{solution}
+			\begin{proof}\hfil
+				
+				\textbf{Base case.} When $  n = 0 $, LHS = $ 0 $ and RHS = $ \frac{0\cdot 1}{2} = 0$. Thus RHS = LHS.
+				\textbf{Inductive step.} We assumed that $ \sum_{i=1}^{q} i = \frac{q(q+1)}{2} $ is true for an arbitrary fixed integer $ q $ and attempt to prove the validity of the formula for $ (q+1) $. Thus 
+				\begin{align*}
+					\sum_{i=1}^{q+1} i &=  \underbrace{\sum_{i=1}^{q} i}_{\frac{q(q+1)}{2}} + (q+1) \\
+					&= \frac{q(q+1)}{2} + (q+1) \\
+					&= \frac{q(q+1) + 2(q+1)}{2} \\
+					&= \frac{(q+1)(q+1)}{2} \mbox{.}
+				\end{align*} 
+				which is precisely the right-side of $ \sum_{i=1}^{n} i = \frac{n(n+1)}{2} $ when $ n = (q+1) $.
+				Therefore, by the principle of mathematical induction, $ \sum_{i=1}^{n} i = \frac{n(n+1)}{2} $.
+			\end{proof}
+		\end{solution}
+		\cite{stylianides2007preservice}
+	    \vspace{8cm}
+	    
+	    
+	    
+	    
+		\section{Integrals}
+		
+		Integral \(\int_{a}^{b} x^2 dx\) inside text.
+		
+		\medskip
+		
+		The same integral on display:
+		\[
+		\int_{a}^{b} x^2 \,dx
+		\]
+		and multiple integrals:
+		\begin{gather*}
+			\iint_V \mu(u,v) \,du\,dv
+			\\
+			\iiint_V \mu(u,v,w) \,du\,dv\,dw
+			\\
+			\iiiint_V \mu(t,u,v,w) \,dt\,du\,dv\,dw
+			\\
+			\idotsint_V \mu(u_1,\dots,u_k) \,du_1 \dots du_k
+			\\
+			\oint_V f(s) \,ds
+		\end{gather*}
+		\cite{lifanov1996singular}
+		
+		
+		
+		
+		
+		\section{Sums and products}
+		
+		Sum \(\sum_{n=1}^{\infty} 2^{-n} = 1\) inside text.
+		
+		The same sum on display:
+		\[
+		\sum_{n=1}^{\infty} 2^{-n} = 1
+		\]
+		
+		Product \(\prod_{i=a}^{b} f(i)\) inside text.
+		
+		The same product on display:
+		\[
+		\prod_{i=a}^{b} f(i)
+		\]
+		\cite{lipschutz2007theory}
+		\vspace{5cm}
+		
+	
+		
+		
+		
+		\definecolor{LightGray}{gray}{0.9}
+		Highlighted Code
+		
+			\begin{minted}
+				[
+				frame=lines,
+				framesep=2mm,
+				baselinestretch=1.2,
+				bgcolor=LightGray,
+				fontsize=\footnotesize,
+				linenos
+				]
+				{python}
+				import numpy as np
+				
+				def incmatrix(genl1,genl2):
+				m = len(genl1)
+				n = len(genl2)
+				M = None #to become the incidence matrix
+				VT = np.zeros((n*m,1), int)  #dummy variable
+				
+				#compute the bitwise xor matrix
+				M1 = bitxormatrix(genl1)
+				M2 = np.triu(bitxormatrix(genl2),1) 
+				
+				for i in range(m-1):
+				for j in range(i+1, m):
+				[r,c] = np.where(M2 == M1[i,j])
+				for k in range(len(r)):
+				VT[(i)*n + r[k]] = 1;
+				VT[(i)*n + c[k]] = 1;
+				VT[(j)*n + r[k]] = 1;
+				VT[(j)*n + c[k]] = 1;
+				
+				if M is None:
+				M = np.copy(VT)
+				else:
+				M = np.concatenate((M, VT), 1)
+				
+				VT = np.zeros((n*m,1), int)
+				
+				return M
+			\end{minted}
+	\end{questions}
+	
+	
+	
+	
+
+	\vspace{8cm}
+	\section{Algorithm Description}
+	
+	In this section, we describe a simple algorithm for finding the maximum element in an array.
+	
+	\begin{algorithm}
+		\caption{Find Maximum Element in Array}\label{alg:findMax}
+		\KwData{Array $A$ of size $n$}
+		\KwResult{Maximum element in the array}
+		\BlankLine
+		\SetAlgoNlRelativeSize{0}
+		\SetAlgoNlRelativeSize{-1}
+		\SetAlgoNlRelativeSize{-2}
+		\For{$i \leftarrow 1$ \KwTo $n$}{
+			\If{$A[i] > \text{maxElement}$}{
+				$\text{maxElement} \leftarrow A[i]$\;
+			}
+		}
+		\KwRet{$\text{maxElement}$}\;
+	\end{algorithm}
+	
+	The algorithm iterates through each element in the array and updates the maximum element if a larger element is encountered. The final result is the maximum element in the array.
+	
+	\section{Analysis}
+	
+	The time complexity of this algorithm is $O(n)$, where $n$ is the size of the array. This is because it iterates through the entire array once.
+	
+	
+	\vspace{10cm}
+	\bibliographystyle{plain}
+	\bibliography{./bib}
+	
+\end{document}
